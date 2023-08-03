@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    margin: 0;
+}
+
+.input {
+    position: relative;
+    width: 50%;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+    outline-color: grey;
+    font-size: 16px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.cont {
+    background-color: #c2c2c2;
+    padding: 10px;
+    height: 50vh;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: relative;
+}
+
+.button {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    right: 20px;
+    display: none;
+    background-color: transparent;
+    border: none;
+}
+
+.google {
+    margin-bottom: 30px;
+    font-size: 60px;
+    font-family: "Roboto";
+    color: grey;
+}
+
+.cont-desc {
+    background-color: #f4f4f4;
+    padding: 20px;
+}
+
+.result-item {
+    margin-bottom: 20px;
+}
+
+.result-title {
+    font-size: 22px;
+    color: #0892d0;
+    text-decoration: none;
+    font-family: "Roboto";
+    margin-top: 6px;
+}
+
+.result-title:hover {
+    text-decoration: underline;
+    color: #00008b;
+}
+
+.result-title:active {
+    text-decoration: underline;
+    text-decoration-color: red;
+    color: red;
+}
+
+.link-description {
+    color: #444444;
+    font-size: 15px;
+    margin-top: 6px;
+}
+
+.result-url {
+    color: #006621;
+    text-decoration: none;
+    font-family: "Roboto";
+    margin-top: 6px;
+}
+
+.result-url:hover {
+    color: darkGreen;
+    text-decoration: underline;
+}
+
+.spinner {
+    text-align: center;
+    margin: 20px;
+}
